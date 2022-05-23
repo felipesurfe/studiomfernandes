@@ -42,4 +42,36 @@ h2 {
   margin-right: 600px;
 }
 
+aside {
+  position: fixed;
+  top: 0;
+  right: 0;
 
+  display: flex;
+}
+
+.icon-menu svg {
+  width: 36px;
+  height: 36px;
+  margin: 15px;
+  cursor: pointer;  
+}
+
+#barra-menu {
+  background-color: #969A92;
+  height: 100vh;
+  width: 0px;
+  transition: 0.3s all;
+}
+
+#barra-menu ul li {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#barra-menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
